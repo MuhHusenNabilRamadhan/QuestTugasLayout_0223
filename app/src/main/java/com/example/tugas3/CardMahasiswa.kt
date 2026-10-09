@@ -34,4 +34,12 @@ fun CardMahasiswa(
     namaFontFamily: FontFamily = FontFamily.Default,
     namaFontWeight: FontWeight = FontWeight.Bold,
     namaFontSize: TextUnit = 22.sp
-)
+) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(all = 12.dp),
+        shape = RoundedCornerShape(12.dp),
+        colors = CardDefaults.cardColors(containerColor = warnaCard)
+    )
+}
