@@ -26,51 +26,6 @@ fun TugasLayout(modifier: Modifier = Modifier) {
                 .padding(top = 100.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Text(
-                stringResource(id = R.string.prodi),
-                fontSize = 35.sp,
-                fontWeight = FontWeight.Bold
-            )
-            Text(
-                stringResource(id = R.string.univ),
-                fontSize = 16.sp,
-                fontWeight = FontWeight.SemiBold
-            )
-            Spacer(modifier = Modifier.height(25.dp))
 
-            CardMahasiswa(
-                nama = stringResource(id = R.string.nama1),
-                alamat = stringResource(id = R.string.alamat1),
-                warnaCard = colorResource(id = R.color.card_1_bg),
-                namaFontFamily = FontFamily.Cursive,
-                namaFontWeight = FontWeight.Normal,
-                namaFontSize = 28.sp
-            )
-            CardMahasiswa(
-                nama = stringResource(id = R.string.nama2),
-                noHp = stringResource(id = R.string.hp2),
-                alamat = stringResource(id = R.string.alamat2),
-                warnaCard = colorResource(id = R.color.card_2_bg)
-            )
-            CardMahasiswa(
-                nama = stringResource(id = R.string.nama3),
-                noHp = stringResource(id = R.string.hp3),
-                alamat = stringResource(id = R.string.alamat3),
-                warnaCard = colorResource(id = R.color.card_3_bg),
-            )
-            CardMahasiswa(
-                nama = stringResource(id = R.string.nama4),
-                noHp = stringResource(id = R.string.hp4),
-                alamat = stringResource(id = R.string.alamat4),
-                warnaCard = colorResource(id = R.color.card_4_bg)
-            )
-        }
-        Text(
-            stringResource(id = R.string.copy),
-            fontSize = 12.sp,
-            modifier = Modifier
-                .align(Alignment.BottomCenter)
-                .padding(bottom = 50.dp)
-        )
     }
 }
