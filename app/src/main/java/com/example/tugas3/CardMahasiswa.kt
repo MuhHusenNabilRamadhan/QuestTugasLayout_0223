@@ -41,5 +41,13 @@ fun CardMahasiswa(
             .padding(all = 12.dp),
         shape = RoundedCornerShape(12.dp),
         colors = CardDefaults.cardColors(containerColor = warnaCard)
-    )
+    ) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = stringResource(id = R.string.desc_logo),
+                modifier = Modifier.size(80.dp).padding(all = 5.dp)
+            )
+
+    }
 }
