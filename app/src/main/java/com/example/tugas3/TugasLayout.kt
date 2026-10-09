@@ -65,6 +65,12 @@ fun TugasLayout(modifier: Modifier = Modifier) {
                 warnaCard = colorResource(id = R.color.card_4_bg)
             )
         }
-
+        Text(
+            stringResource(id = R.string.copy),
+            fontSize = 12.sp,
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .padding(bottom = 50.dp)
+        )
     }
 }
