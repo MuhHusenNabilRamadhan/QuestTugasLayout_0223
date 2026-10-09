@@ -56,7 +56,14 @@ fun CardMahasiswa(
                     fontWeight = namaFontWeight,
                     color = colorResource(id = R.color.white)
                 )
-
+                if (noHp != null) {
+                    Text(
+                        noHp,
+                        fontSize = 14.sp,
+                        color = colorResource(id = R.color.cyan)
+                    )
+                }
+)
         }
     }
 }
