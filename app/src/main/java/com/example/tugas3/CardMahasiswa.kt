@@ -25,3 +25,13 @@ import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
+@Composable
+fun CardMahasiswa(
+    nama: String,
+    alamat: String,
+    warnaCard: Color,
+    noHp: String? = null,
+    namaFontFamily: FontFamily = FontFamily.Default,
+    namaFontWeight: FontWeight = FontWeight.Bold,
+    namaFontSize: TextUnit = 22.sp
+)
