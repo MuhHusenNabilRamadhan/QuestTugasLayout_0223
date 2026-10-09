@@ -46,6 +46,12 @@ fun TugasLayout(modifier: Modifier = Modifier) {
                 namaFontWeight = FontWeight.Normal,
                 namaFontSize = 28.sp
             )
+            CardMahasiswa(
+                nama = stringResource(id = R.string.nama2),
+                noHp = stringResource(id = R.string.hp2),
+                alamat = stringResource(id = R.string.alamat2),
+                warnaCard = colorResource(id = R.color.card_2_bg)
+            )
 
     }
 }
