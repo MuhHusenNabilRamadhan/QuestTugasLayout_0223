@@ -26,6 +26,11 @@ fun TugasLayout(modifier: Modifier = Modifier) {
                 .padding(top = 100.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            Text(
+                stringResource(id = R.string.prodi),
+                fontSize = 35.sp,
+                fontWeight = FontWeight.Bold
+            )
 
     }
 }
