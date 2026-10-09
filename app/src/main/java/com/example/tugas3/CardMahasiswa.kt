@@ -48,6 +48,15 @@ fun CardMahasiswa(
                 contentDescription = stringResource(id = R.string.desc_logo),
                 modifier = Modifier.size(80.dp).padding(all = 5.dp)
             )
+            Column(modifier = Modifier.weight(1f)) {
+                Text(
+                    nama,
+                    fontSize = namaFontSize,
+                    fontFamily = namaFontFamily,
+                    fontWeight = namaFontWeight,
+                    color = colorResource(id = R.color.white)
+                )
 
+        }
     }
 }
