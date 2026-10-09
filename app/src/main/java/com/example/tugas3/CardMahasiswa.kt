@@ -70,7 +70,11 @@ fun CardMahasiswa(
                     color = colorResource(id = R.color.yellow)
                 )
             }
-
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = stringResource(id = R.string.desc_logo),
+                modifier = Modifier.size(80.dp).padding(all = 5.dp)
+            )
         }
     }
 }
