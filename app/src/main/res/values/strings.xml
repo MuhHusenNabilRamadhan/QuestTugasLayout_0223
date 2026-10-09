@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Tugas3</string>
+        <string name="prodi">Teknologi Informasi</string>
+        <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+        <string name="copy">Copyright, 2026</string>
+        <string name="desc_logo">Logo Universitas Muhammadiyah Yogyakarta</string>
+
+        <string name="nama1">Bambang Sumantri</string>
+        <string name="alamat1">Turi, Sleman</string>
+
+        <string name="nama2">Gibran Fathoni</string>
+        <string name="hp2">085436874190</string>
+        <string name="alamat2">Kasihan, Bantul</string>
+
+        <string name="nama3">Zhilal Fadhilah</string>
+        <string name="hp3">085436874190</string>
+        <string name="alamat3">Depok, Sleman</string>
+
+        <string name="nama4">Ahmad Alfian</string>
+        <string name="hp4">085436874190</string>
+        <string name="alamat4">Gamping, Sleman</string>
 </resources>
