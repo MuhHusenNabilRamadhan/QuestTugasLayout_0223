@@ -52,6 +52,12 @@ fun TugasLayout(modifier: Modifier = Modifier) {
                 alamat = stringResource(id = R.string.alamat2),
                 warnaCard = colorResource(id = R.color.card_2_bg)
             )
+            CardMahasiswa(
+                nama = stringResource(id = R.string.nama3),
+                noHp = stringResource(id = R.string.hp3),
+                alamat = stringResource(id = R.string.alamat3),
+                warnaCard = colorResource(id = R.color.card_3_bg),
+            )
 
     }
 }
