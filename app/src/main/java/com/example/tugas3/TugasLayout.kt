@@ -38,6 +38,14 @@ fun TugasLayout(modifier: Modifier = Modifier) {
             )
             Spacer(modifier = Modifier.height(25.dp))
 
+            CardMahasiswa(
+                nama = stringResource(id = R.string.nama1),
+                alamat = stringResource(id = R.string.alamat1),
+                warnaCard = colorResource(id = R.color.card_1_bg),
+                namaFontFamily = FontFamily.Cursive,
+                namaFontWeight = FontWeight.Normal,
+                namaFontSize = 28.sp
+            )
 
     }
 }
