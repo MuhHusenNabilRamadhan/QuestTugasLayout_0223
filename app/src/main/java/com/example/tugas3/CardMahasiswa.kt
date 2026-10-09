@@ -63,7 +63,14 @@ fun CardMahasiswa(
                         color = colorResource(id = R.color.cyan)
                     )
                 }
-)
+                Spacer(modifier = Modifier.height(8.dp))
+                Text(
+                    alamat,
+                    fontSize = 14.sp,
+                    color = colorResource(id = R.color.yellow)
+                )
+            }
+
         }
     }
 }
